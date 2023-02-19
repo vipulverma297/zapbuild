@@ -1,0 +1,98 @@
+/*NEW FILE CSS*/
+
+/* .container {
+  border: 1px solid red;
+} */
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blue-bg {
+  background-color: rgba(248, 249, 250);
+}
+
+/*  button styling */
+.btn {
+  border-radius: 0;
+  padding: 15px 20px;
+}
+.multi-color-heading span {
+  color: #dc3545;
+}
+
+/* Default styling for input fields */
+.form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding-left: 0;
+}
+textarea {
+  resize: none;
+}
+.form-label {
+  color: #777;
+}
+.form-control::-webkit-input-placeholder {
+  /* Edge */
+  color: #000;
+  font-weight: 500;
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+  font-weight: 500;
+}
+
+.form-control::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+
+/* navbar  */
+.navbar .btn-outline-danger{color: #000;}
+.navbar .btn-outline-danger:hover{
+  color: #fff;
+}
+.nav-link{
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.nav-link.active{font-weight: 700;}
+
+
+/* banner */
+.banner {
+  padding-top: 100px;
+}
+.banner h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.banner p {
+  margin-bottom: 0;
+}
+.banner .btn {
+  width: 220px;
+}
+/* footer */
+
+.footer {
+  margin: 100px 0;
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
